@@ -72,3 +72,13 @@ TYPE CONVERSION: it's a type of conversion that is done by the interpreter
 of Python we don't need to tell about it. (e.g., print(1+2.5) output will be
 3.5, so it's done by intrepreter of Python) implicit(automatically)
 """
+
+# SUM Program => a, b => sum
+
+a=int(input("Enter First Number: "))
+b=int(input("Enter Second Number: "))
+
+sum=a+b
+print("Sum Is: ", sum)
+
+# SUBTRACTION Program => a, b => subtraction
