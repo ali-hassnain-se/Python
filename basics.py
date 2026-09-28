@@ -15,6 +15,8 @@ Variable: variable is a named storage location that is used to store value
 # # print data type of variables
 # print(type(name))
 
+#---------------------------------------------------------------------------#
+
 # INPU#T
 # input("Enter Your Name: ") # first method to take input
 
@@ -24,12 +26,16 @@ name=input("Enter Your Name: ") # it will be stored in name variable
 print("Hello " + name) # second way to print "concatination"
 # Concatination: when we add two different strings
 
+#---------------------------------------------------------------------------#
+
 """
 COMMENTS 
 Sigle Line Comment=[#] & Multi-Line Comments=[""" """]
 comments are those part of our code that's ignored by our compiler/interpreter
 if we want to inform that what's actually running in our programwe can use them
 """
+
+#---------------------------------------------------------------------------#
 
 # PRACTICE EXCERCISE 01
 name="Tony Stark"
@@ -38,6 +44,8 @@ height=1.85
 
 s_name=input("Enter Your Super Hero Name: ")
 print(s_name)
+
+#---------------------------------------------------------------------------#
 
 # TYPE CONVERSION/CASTING
 
@@ -73,6 +81,9 @@ of Python we don't need to tell about it. (e.g., print(1+2.5) output will be
 3.5, so it's done by intrepreter of Python) implicit(automatically)
 """
 
+#---------------------------------------------------------------------------#
+
+"""
 # SUM Program => a, b => sum
 
 a=int(input("Enter First Number: "))
@@ -80,5 +91,20 @@ b=int(input("Enter Second Number: "))
 
 sum=a+b
 print("Sum Is: ", sum)
+"""
 
+#---------------------------------------------------------------------------#
+
+"""
 # SUBTRACTION Program => a, b => subtraction
+
+a=int(input("Enter a: "))
+b=int(input("Enter b: "))
+
+sub=a-b
+print("Subtraction Is: ", sub)
+"""
+
+#---------------------------------------------------------------------------#
+
+# STRING Operations
