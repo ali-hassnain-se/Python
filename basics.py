@@ -54,13 +54,13 @@ print(age, type(age))
 
 """
 here the type of age will be string not int, everything by default that we 
-input using input function it stores as a string irrespective of what type of 
-value we are storing there
+input using input() function is stores as a string irrespective of what type of 
+value we are storing there.
 """
 
 # print(age+1) # here it will give error because we can't concatenate INT into STRING
 # to fix this thing we do TYPE CASTING/CONVERSION
-# we can conver STRING into INT and INT into float, etc, by using functions
+# we can convert STRING into INT and INT into float, etc, by using functions
 # this is how we convert STRING into INT and add 1, now it will not give error
 new_age=int(age)+1
 print(new_age)
@@ -108,3 +108,4 @@ print("Subtraction Is: ", sub)
 #---------------------------------------------------------------------------#
 
 # STRING Operations
+
