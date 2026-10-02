@@ -70,11 +70,11 @@ print(float(new_age))
 # when we are converting we always see compatiability like we can't convert "abcd"->int alphabets into int
 
 """
-there is two type of CONVERSIONS in Python, one is TYPE CONVERSION & TYPE 
-CASTING
+there is two type of CONVERSIONS in Python, one is TYPE CONVERSION & second is
+TYPE CASTING
 
-TYPE CASTIG: it's a type of conversion that is done by programmers/developers.
-(e.g., new_age=int(age)+1, print(float(new_age))) explicit(manually)
+TYPE CASTnIG: it's a type of conversion that is done by programmers/developers.
+(e.g., new_age=int(age)+1, print(float(new_age)) explicit(manually)
 
 TYPE CONVERSION: it's a type of conversion that is done by the interpreter
 of Python we don't need to tell about it. (e.g., print(1+2.5) output will be
@@ -109,3 +109,43 @@ print("Subtraction Is: ", sub)
 
 # STRING Operations
 
+name="Tony Starc" # we can also write like this:- name='Tony Starc'
+grade='B' # we can also write it in double quotes("")
+
+# converting whole string into UPPERCASE
+print(name.upper())
+# converting whole string into lowercase
+print(name.lower())
+
+"""
+String in python are IMMUTABLE(it means that we can't change a string when 
+it's created), when we change in a string it will makes another string but 
+in original string we can't modify.
+"""
+# whenever we apply any operation on strings it doesn't change our original string
+
+# find operation
+print(name.find("arc")) # it will return the index if it exists otherwise returns -1
+# python follows 0 based indexing
+
+# replace operation
+
+print(name.replace("Tony Starc", "IronMan")) # it will returns a new string IronMan
+
+# check presence operation
+print('Z' in name) # prints True if exists otherwise False
+
+#---------------------------------------------------------------------------#
+
+# PRACTICE EXCERCISE 02
+apple=99.5
+orange=23.75
+banana=16.15
+
+sum=apple+orange+banana
+totalBill=sum
+print(totalBill)
+avgBill=sum/3
+print(avgBill)
+
+#---------------------------------------------------------------------------#
