@@ -149,3 +149,65 @@ avgBill=sum/3
 print(avgBill)
 
 #---------------------------------------------------------------------------#
+
+# ARITHMETIC OPERATORS
+
+"""
+Arithmetic operations are symbols used in mathematics and programming to perform
+basic calculations.
+Addition(+), Subtraction(-), Multiplication(*), Division(/), Modulus(%), 
+Exponent/Power[used in python](**)
+
+2+2, here + is our operator and 2 is operands
+"""
+
+print(5+3) # addition
+print(5-3) # subtraction
+print(5*3) # multiplication
+print(5/3) # division
+print(5//3) # if we want to print only integer part and ignore decimal part
+print(5%3) # modulus
+print(2**3) # exponent/power
+
+# ASSIGNMENT OPERATORS
+x=1
+x=x+5  # answer will be 6
+# x+=5 # we can also write like this 
+# x-=1, x/=5, x*=3, x%=5
+
+# OPERATOR PRECEDENCE
+"""
+it's like BODMAS in math but in programmin we use PRECEDENCE like *,/ has
+greater priority than +,-. 2+5*3 (here if we plus first and multiply later all,
+all the result will be different) 
+"""
+ans=2+5*3
+print(ans) # answer will be 17 because * has greater priority than +
+
+# COMPARISON OPERATORS
+"""
+if answer will be true it prints True otherwise False
+>, <, <=, >=, ==, !=
+"""
+
+print(3>9) # greater tha
+print(3<9) # less than
+print(3>=9) # greater than or equals to
+print(3<=9) # less than or equals to
+print(3==9) # equals to
+print(3!=9) # not equals to
+
+# LOGICAL OPERATORS
+"""
+they denotes the logic of our expression, there are three logical operators
+(OR, AND, NOT)
+"""
+st1=3>5
+st2=3<5
+
+print(st1 or st2) # prints true if any condition will be true otherwise flase
+
+print((3<5) and (3<12)) # prints True if both conditions true otherwise false
+
+print(not False) # it prints the opposites
+print(not (3>2)) # here it's true but due to not operator it prints false
