@@ -2,6 +2,19 @@
 # print("Hello", "World!")
 # # Here if we use comma(,) it will seperate strings otherwise print them combines
 
+# DATA TYPES
+"""
+PRIMITIVE DATA TYPES:
+these are the fundamentals/basics data types that directly
+provided by language and generally represents a single value. (e.g., int->5,
+float->3.14, char->'A', bool->True/False)
+
+NON-PRIMITIVE DATA TYPES:
+Non-Primitive data types represents more complex data/ structure using 
+primitive data types. (e.g., Array, String, Structure(Struct), Class, Vector, 
+Linked List, Stack, Queue, Tree)
+"""
+
 """ 
 VARIABLES
 Variable: variable is a named storage location that is used to store value
