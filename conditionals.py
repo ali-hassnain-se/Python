@@ -1,8 +1,7 @@
 # Conditional Statements 
 """
-conditional statements are the statements in 
-programming that allow a program to make decision based on whether a condition
-is true or false.
+conditional statements are the statements in programming that allow a program 
+to make decision based on whether a condition is true or false.
 """
 
 age=17
