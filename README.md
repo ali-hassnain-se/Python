@@ -10,14 +10,14 @@ This repository documents my step-by-step learning progression in Python, moving
 
 ```text
 .
-├── 01_basics.py                 # Variables, Data Types, Type Casting, Strings & Operators
-├── 02_conditionals.py           # If-Else branching, logical evaluation, nested checks
-├── 03_loops.py                  # While/For loops, range(), break, and continue
-├── 04_data_structures.py        # Lists, Tuples, Sets, and Dictionaries
-├── 05_functions.py              # Function definitions, parameters, and return values
+├── basics.py                 # Variables, Data Types, Type Casting, Strings & Operators
+├── conditionals.py           # If-Else branching, logical evaluation, nested checks
+├── loops.py                  # While/For loops, range(), break, and continue
+├── data_structures.py        # Lists, Tuples, Sets, and Dictionaries
+├── functions.py              # Function definitions, parameters, and return values
 ├── projects/
-│   ├── 01_calculator.py         # Terminal-based calculator (arithmetic logic)
-│   └── 02_guess_the_number.py   # Interactive CLI guessing game
+│   ├── calculator.py         # Terminal-based calculator (arithmetic logic)
+│   └── guess_the_number.py   # Interactive CLI guessing game
 └── README.md                    # Repository documentation
 ```
 
