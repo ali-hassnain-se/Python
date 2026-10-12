@@ -74,12 +74,12 @@ python --version
 
 2. **Run any topic module:**
    ```bash
-   python 01_basics.py
+   python basics.py
    ```
 
 3. **Run a mini project:**
    ```bash
-   python projects/01_calculator.py
+   python projects/calculator.py
    ```
 
 ## 👤 Author
