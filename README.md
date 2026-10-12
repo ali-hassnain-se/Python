@@ -1,30 +1,86 @@
-# Python Development & Practice 🐍
+# Python Fundamentals & Mini Projects 🚀
 
-Welcome to my Python repository! This space is dedicated to mastering core Python concepts, writing clean logic, and building functional scripts and projects.
+A structured collection of Python notes, code exercises, and mini projects based on college coursework and core language fundamentals.
 
----
+## 📌 Repository Overview
 
-### 🛠️ What's Inside?
-- **Core Concepts:** Data structures, control flow, functions, and object-oriented programming (OOP) in Python.
-- **Problem Solving:** Algorithmic logic and coding challenges.
-- **Automation & Scripts:** Utility scripts to streamline workflows and developer tasks.
+This repository documents my step-by-step learning progression in Python, moving from basic syntax and primitives to data structures, modular code, and small interactive console applications.
 
----
+## 📂 Project Structure
 
-### 🚀 Tech Stack & Tools
-- **Language:** Python 3.x
-- **Environment:** VS Code, Linux/WSL, Git & GitHub
+```text
+.
+├── 01_basics.py                 # Variables, Data Types, Type Casting, Strings & Operators
+├── 02_conditionals.py           # If-Else branching, logical evaluation, nested checks
+├── 03_loops.py                  # While/For loops, range(), break, and continue
+├── 04_data_structures.py        # Lists, Tuples, Sets, and Dictionaries
+├── 05_functions.py              # Function definitions, parameters, and return values
+├── projects/
+│   ├── 01_calculator.py         # Terminal-based calculator (arithmetic logic)
+│   └── 02_guess_the_number.py   # Interactive CLI guessing game
+└── README.md                    # Repository documentation
+```
 
----
+## 📖 Topics Covered
 
-### 📊 Repository Structure
-- `Scripts/` - General utility and automation scripts.
-- `Practice/` - Core concept implementation and exercises.
+### 1. Fundamentals (`01_basics.py`)
+- Standard output (`print`) and user input handling (`input`)
+- Primitive data types (`int`, `float`, `bool`, `str`)
+- Explicit type casting (`int()`, `float()`, `str()`)
+- String manipulation, indexing, slicing, and string formatting
+- Arithmetic, assignment, and logical operators (`and`, `or`, `not`)
 
----
+### 2. Control Flow (`02_conditionals.py` & `03_loops.py`)
+- Decision making using `if`, `elif`, and `else`
+- Iteration using `for` and `while` loops
+- Iterating sequences with `range()`
+- Loop control flow using `break` and `continue`
 
-### Author: Rana Ali Hassnain | Software Engineering Student
+### 3. Built-in Collections (`04_data_structures.py`)
+- **Lists:** Ordered, mutable collections and common list methods
+- **Tuples:** Immutable sequences and indexing
+- **Sets:** Unordered unique collections and set operations
+- **Dictionaries:** Key-value pairs, lookups, and mapping operations
 
-<p align="center">
-  <i>"Writing clean and efficient Python code."</i>
-</p>
+### 4. Modular Code (`05_functions.py`)
+- Writing reusable code with `def`
+- Function parameters, positional arguments, and default arguments
+- Returning output using the `return` statement
+- Variable scope basics
+
+## 🛠️ Mini Projects
+
+| Project | Description | Key Concepts |
+| :--- | :--- | :--- |
+| **CLI Calculator** | Simple terminal calculator performing basic arithmetic operations based on user input. | Conditionals, Type Casting, Input Handling |
+| **Guess the Number** | Interactive number-guessing game providing dynamic feedback (`Too high` / `Too low`). | Loops, `random` module, Flow Control |
+
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure Python 3.x is installed on your system.
+
+```bash
+python --version
+```
+
+### Running the Code
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```
+
+2. **Run any topic module:**
+   ```bash
+   python 01_basics.py
+   ```
+
+3. **Run a mini project:**
+   ```bash
+   python projects/01_calculator.py
+   ```
+
+## 👤 Author
+- GitHub: [@your-username](https://github.com/your-username)
