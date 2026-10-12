@@ -23,26 +23,26 @@ This repository documents my step-by-step learning progression in Python, moving
 
 ## 📖 Topics Covered
 
-### 1. Fundamentals (`01_basics.py`)
+### 1. Fundamentals (`basics.py`)
 - Standard output (`print`) and user input handling (`input`)
 - Primitive data types (`int`, `float`, `bool`, `str`)
 - Explicit type casting (`int()`, `float()`, `str()`)
 - String manipulation, indexing, slicing, and string formatting
 - Arithmetic, assignment, and logical operators (`and`, `or`, `not`)
 
-### 2. Control Flow (`02_conditionals.py` & `03_loops.py`)
+### 2. Control Flow (`conditionals.py` & `loops.py`)
 - Decision making using `if`, `elif`, and `else`
 - Iteration using `for` and `while` loops
 - Iterating sequences with `range()`
 - Loop control flow using `break` and `continue`
 
-### 3. Built-in Collections (`04_data_structures.py`)
+### 3. Built-in Collections (`data_structures.py`)
 - **Lists:** Ordered, mutable collections and common list methods
 - **Tuples:** Immutable sequences and indexing
 - **Sets:** Unordered unique collections and set operations
 - **Dictionaries:** Key-value pairs, lookups, and mapping operations
 
-### 4. Modular Code (`05_functions.py`)
+### 4. Modular Code (`functions.py`)
 - Writing reusable code with `def`
 - Function parameters, positional arguments, and default arguments
 - Returning output using the `return` statement
